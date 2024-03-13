@@ -1,0 +1,8 @@
+
+- SEO boilerplate: https://github.com/Chensokheng/next-supabase-vote/blob/master/app/layout.tsx#l3608 
+
+- CSS glow box:https://codersblock.com/blog/creating-glow-effects-with-css/
+
+- Next.js:  https://nextjs.org/docs/getting-started/installation
+
+- Emoji: https://emojidb.org/
