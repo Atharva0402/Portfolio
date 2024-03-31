@@ -41,7 +41,7 @@ export default function Project() {
     return (
 
     <div className='py-10 p-5 sm:=-0'>
-         <Title text='PRojectS 🚀 '
+         <Title text='Projects 🚀 '
         className='flex flex-col items-center justify-center rotate-6 page'
         />
         <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
