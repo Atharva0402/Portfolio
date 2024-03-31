@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className='space-y-10 text-center lg:text-left  '>
             <h1 className='text-4xl lg:text-7xl font-bold '>Nice to meet you! <br/>👋<span className='underline underline-offset-8 decoration-green-500'>{"I'm Atharva "} </span>  </h1>
             <p className='md:w-96 text-lg text-gray-300'>{"Based in India ,I'm a Full Stack developer passionate about building a modern web application that users love."}</p>
-            <Link href={"mailto:some@gmail.com"} className='inline-block group'>
+            <Link href={"mailto:atharvagkadam@gmail.com"} className='inline-block group'>
                 <div>
                    <Title text='Contact me 📫'/>
                 </div>
