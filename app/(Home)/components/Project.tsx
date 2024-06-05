@@ -30,7 +30,7 @@ export default function Project() {
         {
             title:"Talkify",
             tech:[SiReact,SiMongodb,SiNodedotjs,SiExpress,SiSocketdotio ],
-            link:"https://github.com/Atharva0402/Blogging_site",
+            link:"https://github.com/Atharva0402/chat-app",
             cover:"/Talkify.png",
             background: "bg-indigo-500",
 
