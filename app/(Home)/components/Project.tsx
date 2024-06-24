@@ -1,5 +1,5 @@
 import React from 'react'
-import {  SiNextdotjs ,SiReactrouter,SiBootstrap, SiExpress ,SiNodedotjs ,SiReact ,SiMongodb, SiSocketdotio, SiFirebase } from 'react-icons/si'
+import { SiPython  ,SiOpencv,SiFlask ,SiNumpy  ,SiReactrouter,SiBootstrap, SiExpress ,SiNodedotjs ,SiReact ,SiMongodb, SiSocketdotio, SiFirebase } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -35,13 +35,29 @@ export default function Project() {
             background: "bg-indigo-500",
 
         },
+        {
+            title:"Blogging Site",
+            tech:[SiReact,SiMongodb,SiNodedotjs,SiExpress,SiFirebase ],
+            link:"https://github.com/Atharva0402/Blogging_site",
+            cover:"/Blogging.png",
+            background: "bg-indigo-500",
+
+        },
+        {
+            title:"Cartopia Ecommerce site ",
+            tech:[SiPython,SiOpencv,SiNumpy, SiFlask ,],
+            link:"https://github.com/Atharva0402/SignSense-",
+            cover:"/SignSense.png",
+            background: "bg-green-500",
+
+        }
     ]
 
 
     return (
 
     <div className='py-10 p-5 sm:=-0'>
-         <Title text='Projects 🚀 '
+         <Title text='PRojectS 🚀 '
         className='flex flex-col items-center justify-center rotate-6 page'
         />
         <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
