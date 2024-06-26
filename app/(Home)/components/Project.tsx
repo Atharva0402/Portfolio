@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiPython  ,SiOpencv,SiFlask ,SiNumpy  ,SiReactrouter,SiBootstrap, SiExpress ,SiNodedotjs ,SiReact ,SiMongodb, SiSocketdotio, SiFirebase } from 'react-icons/si'
+import { SiPython  ,SiOpencv,SiFlask ,SiNumpy  ,SiReactrouter,SiBootstrap, SiExpress ,SiNodedotjs ,SiReact ,SiMongodb, SiSocketdotio, SiFirebase ,SiFramer,SiTailwindcss ,SiNextdotjs  } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -37,58 +37,62 @@ export default function Project() {
         },
         {
             title:"Blogging Site",
-            tech:[SiReact,SiMongodb,SiNodedotjs,SiExpress,SiFirebase ],
+            tech:[SiReact,SiNodedotjs,SiExpress,SiFirebase ],
             link:"https://github.com/Atharva0402/Blogging_site",
             cover:"/Blogging.png",
             background: "bg-indigo-500",
 
         },
+        // {
+        //     title:"Sign Sense ",
+        //     tech:[SiPython,SiOpencv,SiNumpy, SiFlask ,],
+        //     link:"https://github.com/Atharva0402/SignSense-",
+        //     cover:"/SignSense.png",
+        //     background: "bg-green-500",
+
+        // },
         {
-            title:"Cartopia Ecommerce site ",
-            tech:[SiPython,SiOpencv,SiNumpy, SiFlask ,],
-            link:"https://github.com/Atharva0402/SignSense-",
-            cover:"/SignSense.png",
+            title:"kanban Board",
+            tech:[SiNextdotjs,SiFramer ,SiReact,SiTailwindcss ],
+            link:"https://kanban-board-eight-rho.vercel.app/",
+            cover:"/kanban.png  ",
             background: "bg-green-500",
 
         }
+
     ]
 
-
     return (
-
-    <div className='py-10 p-5 sm:=-0'>
-         <Title text='PRojectS 🚀 '
-        className='flex flex-col items-center justify-center rotate-6 page'
-        />
-        <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
-            {projects.map((project,index)=>{
-                return <Link href ={project.link} key={index}>
-                    <div className={cn('p-5 rounded-md',project.background)}>
-                    <DirectionAwareHover
-                    imageUrl={project.cover}
-                     className='w-full space-y-5 cursor-pointer'
-                     >
-                        <div className='space-y-5'>
-                        <h1 className='text-2xl font-bold'>{project.title}</h1>
-                        <div className='flex items-center gap-5'>
-                            {
-                                project.tech.map((Icon,index)=>{
-                                    return <Icon 
-                                    key={index}
-                                    className='w-8 h-8'
-                                    />
-                                })
-                            }
+        <div className='py-10 p-5 sm:=-0'>
+            <Title text='Projects 🚀 '
+                className='flex flex-col items-center justify-center rotate-6 page'
+            />
+            <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-3'>
+                {projects.map((project, index) => {
+                    return <Link href={project.link} key={index}>
+                        <div className={cn('p-3 rounded-md', project.background)}>
+                            <DirectionAwareHover
+                                imageUrl={project.cover}
+                                className='w-full space-y-5 cursor-pointer'
+                            >
+                                <div className='space-y-5'>
+                                    <h1 className='text-2xl font-bold'>{project.title}</h1>
+                                    <div className='flex items-center gap-3'>
+                                        {
+                                            project.tech.map((Icon, index) => {
+                                                return <Icon
+                                                    key={index}
+                                                    className='w-8 h-8'
+                                                />
+                                            })
+                                        }
+                                    </div>
+                                </div>
+                            </DirectionAwareHover>
                         </div>
-                        </div>
-                        </DirectionAwareHover>     
-                    </div>
-
-                </Link>
-            })}
-
+                    </Link>
+                })}
+            </div>
         </div>
-       
-    </div>
-  )
+    )
 }
