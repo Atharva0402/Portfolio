@@ -21,7 +21,7 @@ export default function Navbar({className}:{className?:string}) {
       label:"Gitub",
       Icon: SiGithub,
     },{
-      link: "https://drive.google.com/file/d/1OJMDDb9yihiiB0pORTu0ywOK-NG6CwdN/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1p20wRn7lAiFeugOLGnv3Y0Z2rvcasKCl/view?usp=sharing",
       label:"Resume",
       Icon: SiStackedit
     },
