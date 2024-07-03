@@ -55,7 +55,7 @@ export default function Project() {
             title:"kanban Board",
             tech:[SiNextdotjs,SiFramer ,SiReact,SiTailwindcss ],
             link:"https://kanban-board-eight-rho.vercel.app/",
-            cover:"/kanban.png  ",
+            cover:"/kanban.png",
             background: "bg-green-500",
 
         }
