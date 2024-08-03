@@ -9,7 +9,7 @@ export default function HeroSection() {
     <div  className=' min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
         <div className='space-y-10 text-center lg:text-left  '>
             <h1 className='text-4xl lg:text-7xl font-bold '>Nice to meet you! <br/>👋<span className='underline underline-offset-8 decoration-green-500'>{"I'm Atharva "} </span>  </h1>
-            <p className='md:w-96 text-lg text-gray-300'>{" I'm a Full Stack Developer passionate about building modern web applications that users love. With expertise in Node.js, React, and a strong background in responsive web development, I strive to create seamless and intuitive user experiences. Let's connect and explore how we can create innovative solutions together!"}</p>
+            <p className='md:w-96 text-lg text-gray-300'>{" Based in India, I'm a Full Stack Developer passionate about creating modern web applications. With expertise in Node.js and React, I focus on delivering seamless and intuitive user experiences. Let's connect and build innovative solutions together!"}</p>
             <Link href={"mailto:atharvagkadam@gmail.com"} className='inline-block group'>
                 <div>
                    <Title text='Contact me 📫'/>
