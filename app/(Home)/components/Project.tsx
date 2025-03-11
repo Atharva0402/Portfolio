@@ -20,7 +20,7 @@ export default function Project() {
         // },
         
         {
-            title:"Cartopia eccomercce site ",
+            title:"Cartopia E-commerce site ",
             tech:[SiReactrouter,SiBootstrap,SiMongodb,SiReact,SiNodedotjs,SiExpress],
             link:"https://cartopia-d6ei.onrender.com/",
             cover:"/Cartopia_2.png",
